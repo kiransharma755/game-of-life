@@ -26,6 +26,13 @@
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ec2-52-205-69-249.compute-1.amazonaws.com-snapshots</name>
+        <url>http://52.205.69.249:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
     <build>
         <plugins>
             <plugin>
